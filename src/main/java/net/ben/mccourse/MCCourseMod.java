@@ -1,5 +1,6 @@
 package net.ben.mccourse;
 
+import net.ben.mccourse.block.ModBlocks;
 import net.ben.mccourse.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -29,6 +30,7 @@ public class MCCourseMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
     }
