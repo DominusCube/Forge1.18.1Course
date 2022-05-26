@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BLB",
+    "LIL",
+    "BLL"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bue_dye"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mccourse:raw_cobalt_block"
+  }
+}
