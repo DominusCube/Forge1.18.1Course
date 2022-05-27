@@ -3,11 +3,11 @@
   "pattern": [
     "BLB",
     "LIL",
-    "BLL"
+    "BLB"
   ],
   "key": {
     "B": {
-      "item": "minecraft:bue_dye"
+      "item": "minecraft:blue_dye"
     },
     "L": {
       "item": "minecraft:lapis_lazuli"
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "mccourse:raw_cobalt_block"
+    "item": "mccourse:cobalt_ingot"
   }
 }

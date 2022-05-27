@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "CCC",
+    "TCT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:cyan_terracotta"
+    },
+    "C": {
+      "item": "mccourse:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "mccourse:speedy_block"
+  }
+}

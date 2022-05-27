@@ -1,6 +1,7 @@
 package net.ben.mccourse.block;
 
 import net.ben.mccourse.MCCourseMod;
+import net.ben.mccourse.block.custom.SpeedyBlock;
 import net.ben.mccourse.item.ModCreativeModeTab;
 import net.ben.mccourse.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -37,6 +38,10 @@ public class ModBlocks  {
 
     public static final RegistryObject<Block> DEEPSLATE_COBALT_ORE = registerBlock("deepslate_cobalt_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).strength(4.5f)),
+            ModCreativeModeTab.COURSE_TAB);
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(2f)),
             ModCreativeModeTab.COURSE_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
